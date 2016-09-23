@@ -1,0 +1,88 @@
+h1{
+   color:red;
+}
+
+#Danny{
+      text-decoration:none;
+      color:red;
+
+}
+
+
+body{
+     background-color: black;
+
+}
+
+p {
+    color: red;
+    font-size: 30px;
+
+}
+
+h1{
+    font-size:50px;
+
+}
+
+
+
+
+
+#Everyone{
+       Margin-top: 50px;
+}
+
+#navbar {
+		list-style-type:none;
+		margin: 0;
+		padding: 0;
+		background-color: red;
+		width:500px;
+		overflow: hidden;
+		border: 1px solid white;
+		position:fixed;
+		top: 0;
+		width:100%;
+		
+	}
+	
+	.navitem {
+	float: left;
+	
+	text-align: center;
+	/* border-bottom: 1px solid orange*/ 
+	}
+	
+	.navitem a {
+	display:block;
+	padding: 8px 16px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	}
+	
+	.navitem:last-child {
+		border-bottom: none;
+	}
+	
+	/* give local style to the page we are on */
+	
+	.navitem a.active{
+	background-color: white;
+	color: red;
+	
+	}
+	
+	.navitem a:hover:not(.active){
+	/* change background color to something contrasting and text color that can be read */
+	
+	background-color: gray;
+	color: red;
+	
+	}
+	
+	#main {
+	margin-top:30px;
+	padding:20px;
+	}
